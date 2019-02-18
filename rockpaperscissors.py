@@ -8,9 +8,9 @@ com_points = 0
 user_points = 0
 
 round = 0
-decision = input ('Are you ready?>')
+decision = input ("Are you ready? Please enter 'yes' or 'no'< ")
 if decision == 'yes':
-	while round != 3:
+	while round != 6:
 		rocpapsci_user = input('Please enter rock, paper or scissors: \n You: ')
 		computer = (random.choice(rocpapsci_gen))
 		print ('computer:' + computer + '\n')
