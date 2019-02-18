@@ -37,16 +37,16 @@ if decision == 'yes':
 			else :
 				user_points += 1
 		round += 1
-		print ('You:' + str(user_points) + 'Computer:' + str(com_points))
+		print ('You:' + str(user_points) + ' Computer:' + str(com_points))
 		
 				
 if user_points > com_points: 
 	print ('Congrats! You have beaten the computer!')
-	print ('You:' + str(user_points) + 'Computer:' + str(com_points))
+	print ('You:' + str(user_points) + ' Computer:' + str(com_points))
 	
 elif user_points < com_points:
 	print ('You lose!')
-	print ('You:' + str(user_points) + 'Computer:' + str(com_points))
+	print ('You:' + str(user_points) + ' Computer:' + str(com_points))
 	
 else : 
 	print ('Its a Draw! ')
